@@ -78,10 +78,15 @@ hr {
   display: block;
   width: 0;
   height: 3px;
-  background: white;
+  background: #e8e8e8;
   margin: 10px 0;
   transition: 0.5s;
 }
+
+.link.active-link::after {
+  width: 50%;
+}
+
 
 .link:hover::after {
   width: 100%;

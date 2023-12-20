@@ -78,6 +78,10 @@ hr {
   margin-bottom: 170px;
 }
 
+.link.active-link::after {
+  width: 50%;
+}
+
 .link::after {
   content: "";
   display: block;
